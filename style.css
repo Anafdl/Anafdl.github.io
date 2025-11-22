@@ -6,15 +6,15 @@ body {
     color: #333;
 }
 header {
-    background-color: #4caf50;
-    color: white;
+    background-color: #946767;
+    color: rgb(0, 0, 0);
     text-align: center;
     padding: 1rem 0;
 }
 nav {
     display: flex;
     justify-content: center;
-    background-color: #333;
+    background-color: #af4c7d;
 }
 nav a {
     color: white;
@@ -23,7 +23,7 @@ nav a {
     font-size: 1.2rem;
 }
 nav a:hover {
-    background-color: #575757;
+    background-color: #562f61;
 }
 section {
     padding: 2rem;
@@ -42,11 +42,11 @@ section img {
 }
 .timeline li {
     padding-left: 1rem;
-    border-left: 2px solid #4caf50;
+    border-left: 2px solid #af4c7d;
 }
 .timeline li::before {
     content : "\2022";
-    color : #4caf4c;
+    color : #af4c7d;
     font-weight : bold;
     display : inline-block;
     width: 1rem;
@@ -69,7 +69,7 @@ section img {
     text-align: center;
 }
 footer {
-    background-color: #575757;
+    background-color: #946767;
     color: white;
     padding: 24px;
     text-align: center;
